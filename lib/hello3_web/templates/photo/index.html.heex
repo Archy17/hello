@@ -11,7 +11,7 @@
   <tbody>
 <%= for photo <- @photos do %>
     <tr>
-      <td><%= img_tag FileUploader.FileImage.url({photo.picture, photo}, signed: true)
+      <td><%= img_tag Hello3.FileImage.url({photo.picture, photo}, signed: true)
   %></td>
 
       <td>
